@@ -1,6 +1,8 @@
 module github.com/cometbft/cometbft
 
-go 1.22
+go 1.22.5
+
+toolchain go1.23.0
 
 require (
 	github.com/BurntSushi/toml v1.4.0
@@ -36,7 +38,7 @@ require github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7
 
 require (
 	github.com/Masterminds/semver/v3 v3.2.1
-	github.com/btcsuite/btcd/btcec/v2 v2.3.3
+	github.com/btcsuite/btcd/btcec/v2 v2.3.4
 	github.com/btcsuite/btcd/btcutil v1.1.5
 	github.com/cometbft/cometbft-db v0.13.0
 	github.com/cometbft/cometbft-load-test v0.1.0
